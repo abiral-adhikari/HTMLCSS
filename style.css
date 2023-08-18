@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin:0
+}
+
+.nav{
+    background-color: black;
+    color:aliceblue;
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:2rem;
+    padding: 4rem;
+    height:2rem;
+}
+
+.nav .Time{
+    padding:10px 20px;
+    border-radius:100%;
+    background-color:red;
+    position: 10px;
+}
+
+
+.nav .Time:hover{
+    padding:10px 20px;
+    border-radius:20px;
+    background-color:orange;
+    position: 20px;
+}
+
+
+.nav .Logout .img{
+     height:10px;
+     width:20px
+}
+
+
