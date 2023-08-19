@@ -54,10 +54,12 @@ body{
 
 .Calculator .Screen{
     height: 75px;
+    width: 340px;
     border: 1px solid black;
     border-radius:2px;
     background-color:greenyellow;
     opacity:40%;
+    font-size: 40px;
 }
 
 .Calculator .Left{
@@ -86,7 +88,7 @@ body{
     top:auto;
     left:10px;
 }
-.Right .Operator ,.Equal{
+.Right .Operator ,.Equal, .Clear{
     position:relative;
     height:70px;
     width:50px;
@@ -97,6 +99,14 @@ body{
     border:0px;
 }
 
+.Right .Clear{
+    background-color:blue;
+}
 .Right .Equal{
     height:110px;
+    background: green;
+}
+
+.Calculator .Decimel:hover, .Number:hover ,.Operator:hover, .Equal:hover, .Clear:hover{
+    background-color:lightpink;
 }
