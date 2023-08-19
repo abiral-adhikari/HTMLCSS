@@ -38,4 +38,8 @@ body{
      width:20px
 }
 
+.Container{
+    display:grid;
+    grid-template-areas:auto/auto/auto ;
 
+}
