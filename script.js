@@ -53,3 +53,8 @@ const time=()=>{
         Text.style.borderRadius="100%"
     }
 }
+
+
+const()=>{
+    document.getElementsByClassName("Number")[]
+}

@@ -107,6 +107,6 @@ body{
     background: green;
 }
 
-.Calculator .Decimel:hover, .Number:hover ,.Operator:hover, .Equal:hover, .Clear:hover{
+.Calculator .Decimal:hover, .Number:hover ,.Operator:hover, .Equal:hover, .Clear:hover{
     background-color:lightpink;
 }
