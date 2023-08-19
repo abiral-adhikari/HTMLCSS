@@ -49,4 +49,26 @@ body{
     width:400px;
     height:400px;
     padding:20px 20px;
+    background-color:lightslategray;
 }
+
+.Calculator .Screen{
+    height: 75px;
+    border: 1px solid black;
+    border-radius:2px;
+    background-color:greenyellow;
+    opacity:40%;
+}
+
+.Calculator .Operator{
+    position:
+    height:50px;
+    width:50px;
+    font-size:30px;
+    background-color:black;
+    color:aliceblue;
+    border-radius:7px;
+    border:0px
+}
+
+.Calcu
