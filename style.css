@@ -80,13 +80,13 @@ body{
 .Calculator .Right {
     margin:10px 10px;
     display:inline-grid;
-    grid-template-columns:repeat(2,auto);
+    grid-template-columns:auto auto;
     gap:10px 10px;
     position:relative;
     top:auto;
-    left:10px
+    left:10px;
 }
-.Calculator .Operator, .Clear{
+.Right .Operator ,.Equal{
     position:relative;
     height:70px;
     width:50px;
@@ -94,9 +94,9 @@ body{
     background-color:black;
     color:aliceblue;
     border-radius:7px;
-    border:0px
+    border:0px;
 }
 
-.Calculator .Clear{
-    grid-start:
+.Right .Equal{
+    height:110px;
 }
