@@ -39,8 +39,6 @@ body{
 }
 
 .Calculator{
-    display:grid;
-    grid-template-areas:auto/auto/auto ;
     border: 4px solid rgb(77, 60, 62);
     border-radius: 20px;
     position: relative;
@@ -109,4 +107,12 @@ body{
 
 .Calculator .Decimal:hover, .Number:hover ,.Operator:hover, .Equal:hover, .Clear:hover{
     background-color:lightpink;
+}
+
+
+.AgeCalculator{
+    position:relative;
+    left:500px;
+    height:200px;
+    width:300px;
 }
