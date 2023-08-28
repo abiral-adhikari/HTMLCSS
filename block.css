@@ -6,6 +6,14 @@ body{
     color:black !important;
 }
 
+section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex:1
+  }
+  
 .container{
     display:grid;
     grid-template-rows:repeat(3,120px);
@@ -42,11 +50,11 @@ h1{
 
 .item1{
     background-image:linear-gradient(red,rgb(74, 130, 74),yellow);
-    position:absolute;
-    /* top:0px; */
-    /* bottom:0px; */
-    /* left:0px;
-    right:-0px; */
+    position:relative;
+    top:100px;
+    bottom:10px;
+    left:100px;
+    right:-0px;
 }
 
 .item2{
