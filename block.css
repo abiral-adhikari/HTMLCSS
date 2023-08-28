@@ -20,10 +20,7 @@ section {
     grid-template-columns:repeat(4,150px);
     grid-gap: 40px;
     margin:10%;
-    /* position:absolute;
-    top:30%;
-    left:30%; */
-}
+} 
 
 h1{
     font-family:'Courier New', Courier, monospace;
@@ -51,10 +48,10 @@ h1{
 .item1{
     background-image:linear-gradient(red,rgb(74, 130, 74),yellow);
     position:relative;
-    top:100px;
+    /* top:100px;
     bottom:10px;
     left:100px;
-    right:-0px;
+    right:-0px; */
 }
 
 .item2{
