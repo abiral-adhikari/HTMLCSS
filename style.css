@@ -17,6 +17,7 @@ body{
     height:2rem;
 }
 
+
 .nav .Time{
     padding:10px 20px;
     border-radius:100%;
@@ -115,4 +116,15 @@ body{
     left:500px;
     height:200px;
     width:300px;
+}
+
+.bottomnav{
+    background-color: black;
+    color:aliceblue;
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:2rem;
+    padding: 4rem;
+    height:2rem;
 }
