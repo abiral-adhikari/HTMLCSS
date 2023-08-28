@@ -36,6 +36,7 @@ h1{
     font: size 20rem;
     font-weight:bold ;
     display:flex;
+    position:relative
     /* flex to ;put number in center of the container  */
 }
 
@@ -71,10 +72,9 @@ h1{
 }
 .item12{
     background-image:linear-gradient(to bottom,rgb(128, 54, 194),rgb(214, 225, 214),rgb(240, 157, 234));
-    position:absolute;
+    position:relative;
     /* top:0px; */
     bottom:0px;
     /* left:0px; */
-    right:0px;
-    
+    right:-0px;
 }
