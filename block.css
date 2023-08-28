@@ -11,10 +11,10 @@ body{
     grid-template-rows:repeat(3,120px);
     grid-template-columns:repeat(4,150px);
     grid-gap: 40px;
-    margin:20%;
+    margin:10%;
     /* position:absolute;
     top:30%;
-    left:0%; */
+    left:30%; */
 }
 
 h1{
@@ -72,6 +72,9 @@ h1{
 .item12{
     background-image:linear-gradient(to bottom,rgb(128, 54, 194),rgb(214, 225, 214),rgb(240, 157, 234));
     position:absolute;
-    top:0px;
-    left:0px;
+    /* top:0px; */
+    bottom:0px;
+    /* left:0px; */
+    right:0px;
+    
 }
