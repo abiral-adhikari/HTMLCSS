@@ -42,6 +42,11 @@ h1{
 
 .item1{
     background-image:linear-gradient(red,rgb(74, 130, 74),yellow);
+    position:absolute;
+    /* top:0px; */
+    /* bottom:0px; */
+    /* left:0px;
+    right:-0px; */
 }
 
 .item2{
@@ -72,9 +77,4 @@ h1{
 }
 .item12{
     background-image:linear-gradient(to bottom,rgb(128, 54, 194),rgb(214, 225, 214),rgb(240, 157, 234));
-    position:relative;
-    /* top:0px; */
-    bottom:0px;
-    /* left:0px; */
-    right:-0px;
 }
