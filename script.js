@@ -8,7 +8,7 @@ const time=()=>{
     if(hours>12){
         currenttime = `${hours-12}:${minutes}:${seconds} pm`;
     }else{
-        currenttime = `${hours-12}:${minutes}:${seconds} am`;
+        currenttime = `${hours}:${minutes}:${seconds} am`;
     }
     var Text=document.getElementsByClassName("Time")[0]
     if(Text.textContent=="Time"){
