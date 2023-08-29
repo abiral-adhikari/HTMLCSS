@@ -55,6 +55,3 @@ const time=()=>{
 }
 
 
-const()=>{
-    document.getElementsByClassName("Number")[]
-}
