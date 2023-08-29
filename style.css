@@ -14,10 +14,9 @@ body{
     align-items:center;
     gap:2rem;
     padding: 4rem;
-    height:2rem;
+    height:1vh;
+
 }
-
-
 .nav .Time{
     padding:10px 20px;
     border-radius:100%;
