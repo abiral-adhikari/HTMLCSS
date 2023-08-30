@@ -44,8 +44,9 @@
     border: 4px solid rgb(77, 60, 62);
     border-radius: 20px;
     position: relative;
-    top:10px;
-    left:200px;
+    justify-content:center;
+    /* top:10px;
+    left:200px; */
     width:400px;
     height:400px;
     padding:20px 20px;
@@ -114,6 +115,7 @@
 
 .AgeCalculator{
     position:relative;
+    display:inline-grid;
     height:200px;
     width:300px;
 }
