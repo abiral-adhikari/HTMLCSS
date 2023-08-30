@@ -1,3 +1,4 @@
+const { setDefaultHighWaterMark } = require("tar/lib/read-entry");
 
 const time=()=>{
     const currentTime=new Date()
@@ -55,5 +56,7 @@ const time=()=>{
 }
 
 addEventListener("submit",()=>{
-  
+    const formdata=document.getElementsByClassName("dateform")
+    console.log(formdata)
+    document.getElementById("ageoutput")="text"
 })
