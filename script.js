@@ -55,8 +55,9 @@ const time=()=>{
     }
 }
 
-addEventListener("submit",()=>{
-    const formdata=document.getElementsByClassName("dateform")
-    console.log(formdata)
+
+const formsubmit= document.getElementsByClassName("dateform")[0]
+formsubmit.addEventListener("submit",()=>{
+    console.log(formsubmit)
     document.getElementById("ageoutput")="text"
 })
