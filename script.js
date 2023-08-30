@@ -57,7 +57,9 @@ const time=()=>{
 
 
 const formsubmit= document.getElementsByClassName("dateform")[0]
-formsubmit.addEventListener("submit",()=>{
+formsubmit.addEventListener("submit", (event)=>{
+    event.preventDefault();
     console.log(formsubmit)
-    document.getElementById("ageoutput")="text"
+   const Output= document.getElementById("ageoutput")
+   Output.textContent="text"
 })
