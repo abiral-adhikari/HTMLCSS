@@ -1,4 +1,3 @@
-const { setDefaultHighWaterMark } = require("tar/lib/read-entry");
 
 const time=()=>{
     const currentTime=new Date()
@@ -56,7 +55,7 @@ const time=()=>{
 }
 
 
-const formsubmit= document.getElementsByClassName("dateform")[0]
+const formsubmit= document.getElementsById("dateform")[0]
 formsubmit.addEventListener("submit", (event)=>{
     event.preventDefault();
     console.log(formsubmit)
