@@ -55,7 +55,7 @@ const time=()=>{
 }
 
 
-const formsubmit= document.getElementsById("dateform")[0]
+const formsubmit= document.getElementById("dataform")
 formsubmit.addEventListener("submit", (event)=>{
     event.preventDefault();
     console.log(formsubmit)
