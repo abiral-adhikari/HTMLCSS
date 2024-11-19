@@ -123,10 +123,12 @@
 .bottomnav{
     background-color: black;
     color:aliceblue;
-    display: flex;
-    justify-content:space-between;
-    align-items:center;
+    display:inline-block;
+    text-align:center;
     gap:2rem;
     padding: 4rem;
     height:2rem;
+    position: fixed;
+    bottom:0;
+    width:100%;
 }
