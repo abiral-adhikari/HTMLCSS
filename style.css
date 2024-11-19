@@ -3,7 +3,7 @@
 }
 
 .Mbody{
-    margin:0;
+    margin:5%;
     display:grid;
     grid-template-columns:repeat(2,50%)
 }
