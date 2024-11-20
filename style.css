@@ -34,10 +34,23 @@
     position: 20px;
 }
 
-
+.nav .Logout{
+    padding: 0;
+    border-radius: 20%;
+    -webkit-border-radius: 20%;
+    -moz-border-radius: 20%;
+    -ms-border-radius: 20%;
+    -o-border-radius: 20%;
+}
 .nav .Logout .img{
-     height:10px;
-     width:20px
+    margin: 0%;
+    height:30px;
+    width:30px;
+    border-radius: 20%;
+    -webkit-border-radius: 20%;
+    -moz-border-radius: 20%;
+    -ms-border-radius: 20%;
+    -o-border-radius: 20%;
 }
 
 .Calculator{
