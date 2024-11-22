@@ -5,5 +5,13 @@
     position: relative;
     top:1%;
     left:10% ;
-        
+    color: wheat;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
